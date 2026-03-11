@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DMI Weather EDR",
+        "description": "Set up your DMI Weather EDR integration. Data is provided by the DMI Open Data API (no API key required).\n\nLatitude and longitude are pre-filled from your Home Assistant system location — change them if you want weather for a different location.\n\nUpdate interval is in minutes (minimum 5, default 30).",
+        "data": {
+          "name": "Name",
+          "latitude": "Latitude (decimal degrees)",
+          "longitude": "Longitude (decimal degrees)",
+          "update_interval": "Update interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to DMI EDR API",
+      "invalid_coordinates": "Invalid coordinates",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "Service is already configured"
+    }
+  }
+}

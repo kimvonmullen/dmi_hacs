@@ -1,0 +1,13 @@
+{
+  "domain": "dmi_weather",
+  "name": "DMI Weather for Home Assistant",
+  "documentation": "https://github.com/crusell/dmi_weather",
+  "dependencies": [],
+  "codeowners": ["@crusell"],
+  "requirements": [],
+  "version": "1.0.0",
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "render_readme": true,
+  "homeassistant": "2023.8.0"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "DMI Weather",
+  "render_readme": true,
+  "domains": ["weather"],
+  "homeassistant": "2023.8.0",
+  "iot_class": "Cloud Polling",
+  "zip_release": false,
+  "filename": "custom_components/dmi_weather.zip"
+}
