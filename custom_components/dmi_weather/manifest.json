@@ -1,11 +1,11 @@
 {
   "domain": "dmi_weather",
   "name": "DMI Weather for Home Assistant",
-  "codeowners": ["@kimvonmullen"],
+  "codeowners": ["@vondk"],
   "config_flow": true,
-  "documentation": "https://github.com/kimvonmullen/dmi_hacs",
+  "documentation": "https://github.com/vondk/dmi_hacs",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/kimvonmullen/dmi_hacs/issues",
+  "issue_tracker": "https://github.com/vondk/dmi_hacs/issues",
   "requirements": [],
   "version": "1.0.0"
 }
