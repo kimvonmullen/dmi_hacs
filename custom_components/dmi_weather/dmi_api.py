@@ -29,13 +29,7 @@ class DMIWeatherAPI:
         self.daily_forecast_data: List[Dict[str, Any]] = []
         self._last_request_time = 0
         self._rate_limit_delay = 5.0
-        self._max_retries = 3
-        self._update_lock = asyncio.Lock()
-        
-        # Use only the domain name - Home Assistant's HTTP client handles DNS
-        self._api_urls = [
-            DMI_EDR_BASE_URL,  # Original domain
-        ]
+        self._api_urls = [DMI_EDR_BASE_URL]
 
     async def _rate_limit(self) -> None:
         """Ensure minimum delay between API requests to avoid rate limiting."""
